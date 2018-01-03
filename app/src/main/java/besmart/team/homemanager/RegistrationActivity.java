@@ -73,7 +73,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
     public void performRegistration() {
 
-        if(!((EditText)findViewById(R.id.regPassword1)).getText().toString().equals(((EditText)findViewById(R.id.regPassword1)).getText())){
+        if(!((EditText)findViewById(R.id.regPassword1)).getText().toString().equals(((EditText)findViewById(R.id.regPassword1)).getText().toString())){
             Toast.makeText(this, "Passwords mismatch!", Toast.LENGTH_LONG).show();
             return;
         }
